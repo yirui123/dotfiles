@@ -1,8 +1,8 @@
 [user]
-  name  = Matt Ryan
-  email = m@mrevd.me
+  name  = Yi Rui
+  email = yrui@sankyinc.com
 [github]
-  user = mrevd
+  user = yirui123
 [credential]
   helper = osxkeychain
 [color]
@@ -23,14 +23,12 @@
   prompt = false
   keepBackup = false
 [merge]
-  tool = fugitive
+  tool = mergetool
 [apply]
   whitespace = fix
 [core]
-  editor     = vim
+  editor     = subl -w
   whitespace = space-before-tab,tab-in-indent,trailing-space
   excludesfile = ~/.gitignore_global
 [help]
   autocorrect = 1
-[mergetool "fugitive"]
-  cmd = vim -f -c \"Gdiff\" \"$MERGED\"
